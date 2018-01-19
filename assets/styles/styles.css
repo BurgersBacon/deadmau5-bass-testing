@@ -1,0 +1,51 @@
+.container{
+  width: 100%;
+}
+.keys{
+  text-align: center;
+}
+body{
+  background: black;
+}
+body *{
+  font-family: "Arial Black";
+}
+h1{
+  text-align: center;
+  color: white;
+  margin: 0 0 100px 0px;
+}
+h1 span{
+  color: #f90647;
+}
+.key {
+    background: black;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 0 10px;
+    color: white;
+    text-align: center;
+    border: solid 3px white;
+    border-radius: 15px;
+    transition: all 0.1s;
+}
+.playing{
+  border-color:#f90647;
+  color:#f90647;
+  transform: scale(1.2);
+}
+.key kbd {
+    font-size: 70px;
+    text-transform: lowercase;
+}
+.kicks{
+  display: inline-block;
+}
+.imgttl{
+  width: 150px;
+  margin: auto;
+}
+.imgttl img{
+  width: 100%;
+}
